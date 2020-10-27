@@ -1,6 +1,9 @@
 # lexipontix-games
 Digitized games of the Lexipontix therapy program
 
+## [Latest Release](#v12-beta2)
+Go to the latest release in the version history
+
 ## Future Planned Releases
 ### v1.2.1-beta3
 1. Re-write bad code/Change format to universal OO paradigm
@@ -16,7 +19,7 @@ Digitized games of the Lexipontix therapy program
 2. Change instructions opening in seperate window
 
 ## Version History
-### v1.1-beta1
+### [v1.1-beta1](https://github.com/frank20a/lexipontix-games/releases/tag/v1.1-beta.1)
 Initial Release
 ### v1.2-beta2
 Fixed requests:
