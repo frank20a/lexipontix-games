@@ -2,7 +2,7 @@
 Digitized games of the Lexipontix therapy program
 
 ## [Latest Release](#v12-beta2)
-Go to the latest release in the version history
+Go to the [latest release](#v12-beta2) in the version history
 
 ## Future Planned Releases
 ### v1.2.1-beta3
@@ -21,7 +21,7 @@ Go to the latest release in the version history
 ## Version History
 ### [v1.1-beta1](https://github.com/frank20a/lexipontix-games/releases/tag/v1.1-beta.1)
 Initial Release
-### v1.2-beta2
+### [v1.2-beta2](https://github.com/frank20a/lexipontix-games/releases/tag/v1.2-beta.2)
 Fixed requests:
 1. Fixed
 2. Fixed
