@@ -21,7 +21,7 @@ Go to the [latest release](#v12-beta2) in the version history
 ## Version History
 ### [v1.1-beta1](https://github.com/frank20a/lexipontix-games/releases/tag/v1.1-beta.1)
 Initial Release
-### [v1.2-beta2](https://github.com/frank20a/lexipontix-games/releases/tag/v1.2-beta.2)
+### [v1.2-beta2](https://github.com/frank20a/lexipontix-games/releases/tag/v1.2-beta2)
 Fixed requests:
 1. Fixed
 2. Fixed
