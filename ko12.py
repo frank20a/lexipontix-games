@@ -10,10 +10,11 @@ import json
 
 # Setup
 try:
-    resolution = (0, 0)
     title = "Παιχνίδι Κι-01"
     pg.init()
-    screen = pg.display.set_mode(resolution, pg.DOUBLEBUF | pg.FULLSCREEN)
+    info = pg.display.Info()
+    resolution = (info.current_w - 25, info.current_h - 85)
+    screen = pg.display.set_mode(resolution, pg.DOUBLEBUF)
     width, height = pg.display.get_surface().get_size()
     pg.display.set_caption(title)
 except Exception as e:
@@ -71,7 +72,7 @@ class InfoWindow(tk.Tk):
         tk.Tk.__init__(self)
         self.title(title)
         tk.Label(self, text=msg, justify=tk.LEFT).grid(row=0, column=0, padx=15, pady=15)
-        tk.Label(self, text='Software Developer: Frank Fourlas', justify=tk.RIGHT).grid(row=1, column=0, sticky=tk.E,
+        tk.Label(self, text='Software Development: Frank Fourlas', justify=tk.RIGHT).grid(row=1, column=0, sticky=tk.E,
                                                                                         padx=15)
         link = tk.Label(self, text='github.com/frank20a', justify=tk.RIGHT, fg="blue", cursor="hand2")
         link.bind("<Button-1>", lambda e: webbrowser.open_new("https://github.com/frank20a"))
@@ -138,7 +139,7 @@ while running:
     screen.blit(logo2Img, (25, height - 55))
     screen.blit(logoTxt.render("Κέντρο Έρευνας και Θεραπείας Τραυλισμού", True, colors['black']), (70, height - 45))
     t = logoTxt.render("Λεξιπόντιξ: Πρόγραμμα Θεραπείας Τραυλισμού για Παιδιά Σχολικής Ηλικίας.      © Φούρλας,"
-                       " Γ. και Μαρούσος, Δ. (2019).", True, colors['black'])
+                       " Γ. & Μαρούσος, Δ. (2019).", True, colors['black'])
     screen.blit(t, (int(width / 2 - t.get_width() / 2), 25))
     t = titleTxt.render("Βρες τα Αλλόκοτα Γυαλιά", True, colors['lime'])
     screen.blit(t, (int(width / 2 - t.get_width() / 2), int(85 * height / 1080)))
