@@ -1,0 +1,76 @@
+[
+	{
+		"text": "Βατραχάκι",
+		"color": "red",
+		"RGB": [249,70,28],
+		"special": true
+	},
+	{
+		"text": "Βατραχάκι",
+		"color": "red",
+		"RGB": [249,70,28],
+		"special": false
+	},
+	{
+		"text": "Βατραχάκι",
+		"color": "green",
+		"RGB": [51,204,51],
+		"special": false
+	},
+	
+	{
+		"text": "Βατραχάκι",
+		"color": "yellow",
+		"RGB": [254,203,0],
+		"special": false
+	},
+		{
+		"text": "Βεντούζα",
+		"color": "red",
+		"RGB": [249,70,28],
+		"special": true
+	},
+	{
+		"text": "Βεντούζα",
+		"color": "red",
+		"RGB": [249,70,28],
+		"special": false
+	},
+	{
+		"text": "Βεντούζα",
+		"color": "green",
+		"RGB": [51,204,51],
+		"special": false
+	},
+	
+	{
+		"text": "Βεντούζα",
+		"color": "yellow",
+		"RGB": [254,203,0],
+		"special": false
+	},	{
+		"text": "Ελατήριο",
+		"color": "red",
+		"RGB": [249,70,28],
+		"special": true
+	},
+	{
+		"text": "Ελατήριο",
+		"color": "red",
+		"RGB": [249,70,28],
+		"special": false
+	},
+	{
+		"text": "Ελατήριο",
+		"color": "green",
+		"RGB": [51,204,51],
+		"special": false
+	},
+	
+	{
+		"text": "Ελατήριο",
+		"color": "yellow",
+		"RGB": [254,203,0],
+		"special": false
+	}
+]
